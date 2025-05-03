@@ -20,7 +20,7 @@ public class Main {
             System.exit(1);
         }
 
-        Runtime.getRuntime().addShutdownHook(new Thread(() ->{
+        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
             System.out.println("Programma beidz darbu, aizveram DB savienojumu...");
             dbManager.closeConnection();
         }));

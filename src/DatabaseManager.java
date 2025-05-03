@@ -22,6 +22,7 @@ public class DatabaseManager {
                 throw e;
             }
         }
+
         return connection;
     }
 
@@ -81,5 +82,4 @@ public class DatabaseManager {
             }
         }
     }
-
 }
